@@ -1,0 +1,87 @@
+/* assets/style.css */
+
+/* Pengaturan umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Biru muda pudar */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00796b; /* Biru gelap untuk judul */
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Pengaturan form */
+form {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #00796b; /* Biru gelap */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d40; /* Biru lebih gelap saat hover */
+}
+
+/* Pengaturan tabel */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #00796b;
+}
+
+th {
+    background-color: #00796b;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #00796b;
+}
+
+a:hover {
+    color: #004d40;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #00796b;
+}
+
+button:hover {
+    color: #004d40;
+}
